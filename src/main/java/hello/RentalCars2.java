@@ -148,7 +148,7 @@ public class RentalCars2 {
         for(Car c : cars) {
             sb.append(cars.indexOf(c)+1 + ". " +
                     c.getName() + " - " +
-                    ct.get(c.getSipp()[0]) + " - " +
+                    c.getVehicleScore() + " - " +
                     c.getRating() + " - " +
                     c.getCombinedScore() + "\n"
             );
